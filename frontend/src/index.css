@@ -1,0 +1,42 @@
+/* index.css - Styles globaux */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;  /* Fond sombre pour renforcer l'effet cyberpunk */
+  font-family: 'Roboto', sans-serif;  /* Police moderne */
+  color: white;  /* Texte en blanc */
+}
+
+h1, h2, h3, p {
+  margin: 10px;
+}
+
+/* Corps des liens */
+a {
+  color: #39ff14;  /* Neon Green pour les liens */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffcc00;  /* Neon Yellow au survol */
+  text-decoration: underline;
+}
+
+/* Scrollbar customisée pour le thème cyberpunk */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffcc00;  /* Neon Yellow */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #39ff14;  /* Neon Green */
+}
+
